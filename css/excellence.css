@@ -1,0 +1,109 @@
+.excellence {
+    background: #098ed1;
+    padding-top: 61px;
+    padding-bottom: 61px;
+}
+
+.excellence__img {
+    position: relative;
+    width: 595px;
+    height: 302px;
+}
+
+.excellence__imgBack {
+    position: absolute;
+    width: 298px;
+    height: 182px;
+    top: 36px;
+    left: 24px;
+}
+
+.excellence__imgFront {
+    position: absolute;
+    width: 395px;
+    height: 241px;
+    left: 174px;
+}
+
+.excellence__keyboard {
+    position: absolute;
+    width: 486px;
+    height: 35px;
+    top: 277px;
+    left: 34px;
+}
+
+.excellence__imgBack::before {
+    position: absolute;
+    content: url('../img/shadow.png');
+    display: block;
+    left: 107px;
+}
+
+.excellence__imgFront::before {
+    position: absolute;
+    content: url('../img/shadow_bot.png');
+    display: block;
+    top: 227px;
+    left: -15px;
+}
+
+.excellence__list,
+.excellence__section {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.excellence__list {
+    margin-left: 77px;
+}
+
+.excellence__section {
+    padding-left: 65px;
+    position: relative;
+}
+
+.excellence__section:nth-child(1),
+.excellence__section:nth-child(2) {
+    margin-bottom: 53px;
+}
+
+.excellence__name {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.excellence__text {
+    color: #8cd9ff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.excellence__text-bold {
+    font-family: "Open Sans - Extrabold";
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.excellence__section::before {
+    position: absolute;
+    left: 0;
+}
+
+.flexible::before {
+    content: url('../img/flexible.png');
+}
+
+.target::before {
+    content: url('../img/target.png');
+}
+
+.global::before {
+    content: url('../img/global.png');
+}
